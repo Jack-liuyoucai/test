@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI -I..\HARDWARE\EXTI -I..\HARDWARE\TIMER -I..\HARDWARE\MPU6050 -I..\USER -I..\HARDWARE\IMU -I..\HARDWARE\FAST_MATH -I..\HARDWARE\CONTROL -I..\HARDWARE\HMC5883
+-I E:\Keil_v5\ARM\RV31\INC
+-I E:\Keil_v5\ARM\CMSIS\Include
+-I E:\Keil_v5\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="517"
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "main.c"
